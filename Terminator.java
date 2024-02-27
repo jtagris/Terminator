@@ -1,6 +1,6 @@
 package TERMINATOR;
 
-class Terminator 
+public abstract class Terminator 
 {
     private int ID;
 

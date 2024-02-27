@@ -2,25 +2,25 @@ package TERMINATOR;
 
 class T800 extends Terminator
 {
-    public int state;
+    public boolean state;
     private int ID;
     
     T800(int id)
         {
             super(id);
-            this.state = 0;
+            this.state = false;
         }
 
 
     void SetAmical()
         {
-            this.state = 0;
+            this.state = false;
         }
 
     @Override
     public void Termine()
         {
-            if(this.state == 1)
+            if(this.state == false)
                 {
                     super.Termine(); 
                 }
