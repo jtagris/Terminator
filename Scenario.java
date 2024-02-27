@@ -11,6 +11,7 @@ public class Scenario
             t1.Termine();
 
             T800 t2 = new T800(102);
+            //t2.state = 1;
             t2.SePresenter();
             t2.Termine();
 
