@@ -8,5 +8,11 @@ public class Scenario
 
             Terminator t1 = new Terminator(101);
             t1.SePresenter();
+            t1.Termine();
+
+            T800 t2 = new T800(102);
+            t2.SePresenter();
+            t2.Termine();
+
         }    
 }
